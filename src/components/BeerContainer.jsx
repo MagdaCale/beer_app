@@ -6,6 +6,8 @@ const BeerContainer =(props)=>{
 
     producer = producer.slice(0,producer.search('<'))
 
+ // Änderung: Bier Auflistungs-Seite 
+
     return(
         <section className="beer-container-section">
             <div className="beer-container-div">

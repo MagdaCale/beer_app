@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
-
+// general Styling
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +9,7 @@
   font-weight: 500;
 }
 
+
 body{
   width: 414px;
   text-align: center;
@@ -16,8 +17,8 @@ body{
 
 h1{
   font-size: 30px;
-  font-weight: 500;
 }
+
 h2{
   color: #ffCA41;
   font-size: 18px;
@@ -28,13 +29,18 @@ h2{
 p{
   font-size: 18px;
   text-align: left;
-  font-weight: 500;
 }
 
+// Das styling für die NavBar befindet sich im component Styling in NavBar.jsx
 nav{
   padding-top: 10vh;  
 }
 
+// general Styling ende
+
+
+
+ // hier beginnt das Styling für die Home Seite. Das Styling für die Links ist als component Styling in App.js//
 
 .mainApp{
   img{
@@ -58,6 +64,9 @@ nav{
   }
 }
 
+
+ // hier beginnt das Styling für die  Bier Auflistungs-Seite //
+
 .beer-container-section{
   display: grid;
   grid-template-columns: 40% 60%;
@@ -76,7 +85,6 @@ nav{
   img{
     width: 50%;
   }
- 
   p{
     font-size: 15px;
     font-weight: 500;
@@ -85,7 +93,7 @@ nav{
 }
 
 
-
+ // hier beginnt das Styling für die random Bier Seite //
 
 .random-beer-section{
   p{

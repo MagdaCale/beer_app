@@ -15,6 +15,8 @@ const BeerDetail =(props)=> {
         .then(beers => setBeer(beers))
     },[])
     
+    // Änderungen: class: random-beer-article + random-beer-div angegeben. // class: beer-description
+
     return(
         <section className="random-beer-section">
             <img src={beer.image_url} alt="" />
